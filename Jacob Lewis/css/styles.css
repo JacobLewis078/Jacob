@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #eeeeee;
+}
+
+.nav {
+  font-size: 1.4rem;
+  height: 5rem;
+  position: relative;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.nav-list{
+  text-align: right;
+}
+
+.circlenav {
+  width: 5%;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+
+.navtext {
+  text-align: center;
+  font-size: .8rem;
+  display: inline-block;
+  position: absolute;
+  left: 51.5%;
+  top: 14%;
+  z-index: -1;
+}
+
+
+.circlenav:hover{
+  opacity: 0;
+}
+
+.navbar_home {
+  text-decoration: none;
+  color: #303841;
+  padding: 20px 50px 0;
+  display: inline-block;
+}
+
+.navbar_about {
+  text-decoration: none;
+  color: #303841;
+  padding: 20px 50px 0;
+  display: inline-block;
+}
+
+.navbar_connect {
+  text-decoration: none;
+  color: #303841;
+  padding: 20px 50px 0;
+  display: inline-block;
+}
+
+/* Home */
+.top-container {
+  padding-top: 8rem;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+
+.webdev {
+  font-size: 2rem;
+  margin: 0 auto;
+  color: #303841;
+  z-index: 1;
+}
+
+.circle1 {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: relative;
+    right: 10px;
+    bottom: 430px;
+    transform: rotate(30deg);
+}
+
+.circle2{
+  margin: 0;
+  padding: 0;
+  width: 27%;
+  position: relative;
+  right: 170px;
+  transform: rotate(180deg);
+}
+
+.circle3 {
+  margin: 0;
+  padding: 0;
+  width: 35%;
+  position: relative;
+  bottom: 270px;
+  left: 40px;
+  transform: rotate(285deg);
+  z-index: -1;
+}
+
+.circle4 {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  position: relative;
+}
+
+.circle5 {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: relative;
+  transform: rotate(235deg);
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ff5722;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 10px;
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: #00adb5;
+}
+
+hr{
+  border: 10px dotted;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+  color: lightgrey;
+}
+
+.middle-container {
+  padding-bottom: 0;
+}
+
+.Skill-list {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.tbleft {
+  line-height: 3;
+  color: #303841;
+  font-size: 1.3rem;
+  margin-left: 33%;
+  margin-right: 0;
+  text-align: left;
+}
+
+.tbright {
+  line-height: 3;
+  color: #303841;
+  font-size: 1.3rem;
+  margin-right: 33%;
+  margin-left: 0;
+  text-align: left;
+}
+
+.circle6 {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: relative;
+  bottom:150px;
+  right: 100px;
+  z-index: -1;
+    transform: rotate(75deg);
+}
+
+.circle7 {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: relative;
+  bottom: 500px;
+  z-index: -1;
+  transform: rotate(95deg);
+}
+
+.circle8{
+  margin: 0;
+  padding: 0;
+  width: 14%;
+  position: relative;
+  bottom: 300px;
+  z-index: -1;
+  transform: rotate(200deg);
+}
+
+.circle9 {
+  margin: 0;
+  padding: 0;
+  width: 28%;
+  position: absolute;
+  bottom: -650px;
+  right: 50px;
+  z-index: -1;
+  transform: rotate(330deg);
+}
+
+.circle10 {
+  margin: 0;
+  padding: 0;
+  width: 17%;
+  position: relative;
+  bottom: 950px;
+  right: 1150px;
+  transform: rotate(45deg);
+}
+
+
+/* Aboutme Page */
+.self {
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.bio {
+  padding-top: 2rem;
+  margin: 0 40px 50px;
+  text-align: left;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.info {
+  float: none;
+}
+
+.ed-list {
+  list-style-type: none;
+  text-align: left;
+  line-height: 2;
+}
+
+.reading {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  display: inline;
+}
+
+.books {
+  height: 10%;
+  width: 12%;
+  margin: 20px 0 0;
+  padding-bottom: 0;
+}
+
+.book-text {
+  margin: 5px auto 20px;
+}
+
+.Social {
+  padding-top: 8rem;
+}
+
+/* footer */
+.footer {
+background-color:  #00adb5;
+padding-top: 40px;
+padding-bottom: 20px;
+}
